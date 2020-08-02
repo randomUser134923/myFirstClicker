@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body onload="testFunction();">
+
+
+
+    <script src="script.js"></script>
+
+    <header>
+      HEY HEADER
+    </header>
+
+    <div id="container">
+      <div class="playground">
+        playground
+      </div>
+
+      <div class="cookie">
+        <button id="mushroom_image" onClick="addMoosh();">
+            <input type="image" src="./img/orangeMush.gif" />
+        </button>
+
+        <div id="output">
+          <span id="count-number"> 0 </span> 
+        </div>
+
+      </div>
+
+      <div class="upgrade">
+        <ul id="upgrade-items">
+          <li id="item1" onclick= "clickItem(0);">초록버섯 Lv <span id=item_0_counter>0</span> </li>
+          <li id="item2" onclick= "clickItem(1);">뿔버섯 Lv <span id=item_1_counter>0</span> </li>
+          <li id="item3" onclick= "clickItem(2);">이블아이 Lv <span id=item_2_counter>0</span> </li>
+          <li id="item4" onclick= "clickItem(3);">커즈아이 Lv <span id=item1_3_counter>0</span> </li>
+        </ul>
+      </div> 
+
+      <footer> 
+        HEY FOOTER
+      </footer>
+
+    </div>
+
+  </body>
+</html>
